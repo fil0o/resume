@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, js, practicks">
+    <meta name="description" content="Проработка курса по верстке">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="card card-header container">
+        <img src="img/avt.jpg" alt="Аватарка" class="header-icon">
+        
+        <section class="header-info">
+            <h1>Ануфриев Филипп</h1>
+        
+            <p class="header-caption">Я изучаю программирование уже не первый год, и очень хочу устроистся на работу Фронтенд-Разработчиком. </p>
+            <p class="header-caption">Люблю кроссфит, путешествовать, обучаться новому и программировать</p>
+
+            <h4 class="header-soc_title">Мои соц-сети:</h4>
+            <a href="https://vk.com/fil_0o" class="social-link">Вконтакте</a>
+            <a href="https://t.me/Ask_F1l" class="social-link">Телеграм</a>
+        </section>
+        
+    </header>
+    
+    <main class="container">
+        <section class="card card-hobby">
+            <h2>Мои хобби</h2>
+            <ol>
+                <li>Путешествия</li>
+                <li>Сноубординг</li>
+                <li>Кроссфит</li>
+                <li>Чтение</li>
+                <li>Готовить</li>
+            </ol>
+        </section>
+        
+        <section class="card card-job">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ООО "Хендай"</td>
+                        <td>Системный адмнистратор</td>
+                        <td>2010-2011</td>
+                    </tr>
+                    <tr>
+                        <td>"Хозкомплес АКО"</td>
+                        <td>Системный адмнистратор</td>
+                        <td>2011-2012</td>
+                    </tr>
+                    <tr>
+                        <td>"Автохозяйство АКО"</td>
+                        <td>Ведущий инженер-программист</td>
+                        <td>2012-2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="card card-contact">
+            <h2 class="contact-title">Связаться со мной</h2>
+            <form action="" method="post" class="form-contact">
+                <div class="input-container">
+                    <label class="input-group text-gray">
+                        Ваше имя:
+                        <input type="text" name="name" placeholder="Введите имя" class="input-form">
+                    </label>
+
+                    <label class="input-group text-gray">
+                        Ваш email:
+                        <input type="email" name="email" placeholder="Введите email" class="input-form">
+                    </label>
+                </div>
+                
+                <label class="input-message text-gray">
+                    Ваше Сообщение:
+
+                    <textarea class="text-message" name="message" placeholder="Введите сообщение..."></textarea>
+                </label>
+                <input type="submit" value="Отправить!" class="btn">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
